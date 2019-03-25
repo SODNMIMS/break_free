@@ -1,5 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+<style>
+.grid { 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  }
+.grid img {
+  max-width: 100%;
+}
+</style>
 <head>
 
 <meta charset="UTF-8">
@@ -50,7 +60,7 @@ http://www.tooplate.com/view/2085-neuron
           </div>
           <div class="collapse navbar-collapse">
                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="about.html">About</a></li>
+                    <li><a href="about.html">About Us</a></li>
                     <li><a href="process.html">Process</a></li>
                     <li><a href="gallery.html">Gallery</a></li>
                     <li><a href="contact.html">Contact</a></li>
@@ -121,16 +131,22 @@ http://www.tooplate.com/view/2085-neuron
                               <h3><a href="single-post.html">Materials used in the product</a></h3>
                          </div>
                     <div class="blog-post-thumb">
+                         
+                         <main class="grid">
+  <img src="images/Ardiuno.jpg" alt="Arduino">
+  <img src="images/stepper motor.png" alt="stepper motor">
+  <img src="images/wires.jpg" alt="wires">
+</main>
 
-                         <div class="blog-post-image">
+ <!--                         <div class="blog-post-image">
                                    <img src="images/Ardiuno.jpg" class="img-responsive" alt="ardiuno">
                                     <img src="images/stepper motor.png" class="img-responsive" alt="stepper motor">
                                      <img src="images/wires.jpg" class="img-responsive" alt="wires">
                               </a>
-                         </div>
+                         </div> -->
 
                          <div class="blog-post-des">
-                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                              <p>There were various materials and processes used in the making of the product. The key elements were the sensors which make the whole interaction with the product possible. These sensors were controlled by Arduino boards. The sensors included servo motors, stepper motors, LED display boards, buzzers, ultrasonic sensors and lots and lots of wires. Each element was individually coded and its interaction was given special attention. When these individual elements came togetehr, it formed the whole product and helped give the user an engaging experience.</p>
 
                          </div>
                     </div>
